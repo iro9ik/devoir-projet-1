@@ -1,53 +1,11 @@
-﻿# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.class
-*.so
+﻿# Données brutes téléchargées (MNIST)
+data/
 
-# C extensions
-*.obj
-*.o
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environments
+# Environnement virtuel & caches Python
 .venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Jupyter Notebook Checkpoints
+__pycache__/
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/*
 
-# Environment variables & secrets
-.env
-*.env
-*.env.local
-
-# Large datasets cache (keep repo lightweight)
-data/MNIST/
-**/data/MNIST/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-desktop.ini
+# Fichiers temporaires de rendu de graphes
+graphe_operations.png
+*.gv
